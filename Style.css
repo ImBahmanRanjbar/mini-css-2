@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Byekan";
+  src: url("/fonts/Byekan.ttf") format("truetype"),
+    url("/fonts/Byekan.woff") format("woff");
+}
+@font-face {
+  font-family: "lalehzar";
+  src: url("/fonts/lalezar.ttf") format("truetype"),
+    url("/fonts/lalezar.woff") format("woff");
+}
+body {
+  font-family: Byekan;
+}
+.header {
+  height: 550px;
+  background-image: url("/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding-top: 31px;
+  text-align: center;
+}
+.header .nav_list {
+  list-style-type: none;
+}
+.header .nav_list .nav-item {
+  display: inline-block;
+  padding: 20px;
+}
+.header .nav_list .nav-item:hover {
+  color: rgba(27, 229, 236, 0.61);
+}
+.title {
+  font-size: 60px;
+  font-family: lalehzar;
+  padding-top: 80px;
+}
+.title span {
+  color: rgb(48, 192, 173);
+}
+.dechead {
+  margin: auto;
+  width: 500px;
+  height: 50px;
+  line-height: 50px;
+  background-color: rgba(92, 52, 97, 0.5);
+  border-radius: 20px;
+  border: 1px solid white;
+  margin-top: 25px;
+}
+.member {
+  text-align: center;
+  padding: 50px 30px;
+}
+.member-list {
+  list-style-type: none;
+  margin-top: 25px;
+}
+.member-item {
+  width: 350px;
+  display: inline-block;
+  margin: 10px;
+  box-shadow: 0 0 10px #bbbbbb;
+}
+.member-pic {
+  width: 100%;
+}
+.member-name {
+  font-size: 24px;
+  margin-top: 5px;
+}
+.member-bio {
+  padding: 15px;
+  text-align: justify;
+}
+.about {
+  height: 700px;
+  background-image: url("/images/bg.jpg");
+  background-size: cover;
+  padding-top: 50px;
+  background-color: #373837;
+  background-blend-mode: multiply;
+}
+.cir {
+  width: 600px;
+  height: 600px;
+  background-color: red;
+  margin: auto;
+  border-radius: 50%;
+  text-align: center;
+  padding: 100px 120px;
+}
+.cir p {
+  margin-top: 40px;
+  text-align: justify;
+}
